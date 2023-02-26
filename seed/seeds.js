@@ -9,6 +9,8 @@ const Contact = require('../models/Contact');
 require('dotenv').config();
 const db = process.env.MY_MONGO_URI;
 
+console.log("hola")
+
 // STAND ALONE CONNECTION TO DB;
 mongoose
   .connect(db)
